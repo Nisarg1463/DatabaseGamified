@@ -1,0 +1,4 @@
+repository "DatabaseGame 2025-03-08_01-53-35/DatabaseGame@13469136785170@cloud"
+  path "/"
+    br "/main"
+    co "/main"

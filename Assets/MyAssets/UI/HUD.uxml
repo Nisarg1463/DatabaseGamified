@@ -1,0 +1,15 @@
+<engine:UXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:engine="UnityEngine.UIElements" xmlns:editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/MyAssets/UI/HUD.uss?fileID=7433441132597879392&amp;guid=2c11ee5e725c0d546be219e4e46e8507&amp;type=3#HUD" />
+    <engine:VisualElement name="root" class="root" style="height: 68px;">
+        <engine:VisualElement name="top-bar" class="top-bar" style="height: 69px;">
+            <engine:TextField name="prompt-bar" placeholder-text="Enter prompt here" class="prompt-bar" />
+            <engine:Button name="Execute" text="Execute" class="menu-button" />
+            <engine:Button name="Roads" text="Roads" class="menu-button" />
+            <engine:Button name="Exit" text="Exit" class="menu-button" />
+        </engine:VisualElement>
+    </engine:VisualElement>
+    <engine:ScrollView class="fixed-scrollview" style="height: 149px; width: 316px;">
+        <engine:TextField name="question" placeholder="Question" placeholder-text="Question" />
+        <engine:Label name="response" style="white-space: normal;" />
+    </engine:ScrollView>
+</engine:UXML>
